@@ -4,15 +4,9 @@
 void initializeGraph(Graph* myGraph, const string nodeFilePath, const string edgeFilePath, double delta, double sectionLength);
 string changeIntToStr(int count);
 void setQueryEnv(Graph* myGraph, ReferencePath* referencePath, CompletePath* completePath, string inputFolder, string strCount);
-//double getPathLength(const std::vector<Edge>& temPath);
 void setCurrPath(Graph* myGraph, std::vector<Edge>* currentPath, CompletePath* completePath, const unsigned int pos);
 void initializeFirstPath(Graph* myGraph, TraversingPath* path, int currentVertex, std::vector<Edge>& currentPath);
-//void resetVertexFlag(Graph* myGraph);
-//void initializeReferencePath(Graph* myGraph, ReferencePath* temReferPath, const string referFilePath);
-//void initializeCompletePath(Graph* myGraph, CompletePath* temComPath, const string comFilePath);
 double realDistance(const double lonDiff, const double latDiff, const double cosLongitude);
-//void setReferInitialAndFinal(ReferencePath* temPath);
-//void setComInitialAndFinal(CompletePath* temPath);
 void setReferPathLength(ReferencePath* temPath);
 void filterVertexIsSafeArea(Graph* myGraph, ReferencePath* temPath);
 double pointToSegDist(const double x, const double y, const double x1, const double y1, const double x2, const double y2);
