@@ -2,12 +2,16 @@
 
 The code implements CTSS algorithm for online outlier detection.
 
+
+
 ## Supported query modes
 
 1. Single point query in Euclidean space
 2. Continuous query in Euclidean space
 3. Single point query in Road network space
 4. Continuous query in Road network space
+
+
 
 ## File format
 
@@ -79,11 +83,27 @@ Example:
 ...
 ```
 
+
+
 ## Build
+
+```
+make
+```
 
 
 
 ## Run
+
+```
+./CTSS "input_folder_path" "output_folder_path" "start_position" "stop_position" "delta" "query_mode" "section_length"
+```
+
+Example:
+
+```
+./CTSS data/beijing/set_14000 data/beijing/out 1 20 0.0081 1 100
+```
 
 
 
@@ -91,5 +111,7 @@ Example:
 
 - Dongxiang Zhang: zhangdongxiang@zju.edu.cn
 - Zhihao Chang: changzhihao@zju.edu.cn
+
+
 
 ## Reference
