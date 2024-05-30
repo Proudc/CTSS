@@ -1,6 +1,6 @@
 # Continuous Trajectory Similarity Search for Online Outlier Detection
 
-The code implements CTSS algorithm for online outlier detection.
+The code implements the CTSS algorithm for online outlier detection.
 
 
 
@@ -115,3 +115,20 @@ Example:
 
 
 ## Reference
+If you want to use this code, please cite:
+```
+@article{DBLP:journals/tkde/ZhangCWYTC22,
+  author       = {Dongxiang Zhang and
+                  Zhihao Chang and
+                  Sai Wu and
+                  Ye Yuan and
+                  Kian{-}Lee Tan and
+                  Gang Chen},
+  title        = {Continuous Trajectory Similarity Search for Online Outlier Detection},
+  journal      = {{IEEE} Trans. Knowl. Data Eng.},
+  volume       = {34},
+  number       = {10},
+  pages        = {4690--4704},
+  year         = {2022},
+}
+```
